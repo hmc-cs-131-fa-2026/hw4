@@ -4,11 +4,11 @@ Description  : Evaluator for expressions represented as an "Exp"
 Maintainer   : CS 131, Programming Languages (Melissa O'Neill, Chris Stone, Ben Wiedermann)
 -}
 
-module RandomArtEvaluation where
-
 module RandomArtEvaluation
     ( module RandomArtEvaluation
     , module RandomArtAST) where
+
+import RandomArtAST
 
 import qualified Data.Word                   as Word
 import qualified Data.ByteString.Lazy        as Bytes
